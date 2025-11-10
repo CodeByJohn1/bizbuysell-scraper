@@ -1,0 +1,11 @@
+{
+  "base_url": "https://www.bizbuysell.com",
+  "user_agent": "BizBuySellScraper/1.0 (+https://bitbash.dev)",
+  "request_timeout": 20,
+  "concurrency": 5,
+  "delay_between_requests": 1.0,
+  "output_directory": "data",
+  "output_formats": ["json", "csv", "xlsx"],
+  "input_file": "data/inputs.sample.txt",
+  "log_level": "INFO"
+}
